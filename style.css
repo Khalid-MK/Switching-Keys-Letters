@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h2 {
+      font-weight: 500;
+      color: #030303;
+  }
+
+  body {
+      width: 640px;
+      padding-left: 8px;
+  }
+
+  form {
+      display: inline-flex;
+      padding-bottom: 15px;
+  }
+
+  /* Style the search field */
+  form.form textarea{
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    justify-self: center;
+    align-self: center  ;
+    background: #f1f1f1;
+    resize: none;
+  }
+  
+  #output {
+      cursor: pointer;
+  }
+
+  #output:hover {
+    background: #e1e1e1;
+  } 
+
+  #output:active {
+    background: #d1d1d1;
+  } 
+
+  
